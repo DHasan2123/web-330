@@ -1,0 +1,82 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author: Dua Hasan
+  Date: 12/04/24
+  Filename: styles.css
+*/
+
+/* Add your CSS styles here */
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.dashboard {
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.chef-section {
+  background-color: #e9f7f6;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #007b7f;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+strong {
+  color: #007b7f;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .dashboard {
+    width: 90%;
+  }
+
+  .chef-section {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+}
